@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Test/Kvadrat.iml" filepath="$PROJECT_DIR$/Test/Kvadrat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Kvadrat.opg/Kvadrat.opg.iml" filepath="$PROJECT_DIR$/Kvadrat.opg/Kvadrat.opg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kvadrat Opgave/Kvadrat.opg.iml" filepath="$PROJECT_DIR$/Kvadrat Opgave/Kvadrat.opg.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
     </modules>
   </component>
