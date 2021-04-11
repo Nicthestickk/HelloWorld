@@ -1,15 +1,14 @@
 //Skriv enklasse kaldet Bog, der indeholderISBN-nummer,titelog udgivelsesår
 public class Bog {
-    private int isbNummer;
-    private String titel;
-    private int udgivelsesår;
+    private final int isbNummer;
+    private final String titel;
+    private final int udgivelsesr;
 
-    public Bog(int isbNummer, String titel, int udgivelsesår){
+    public Bog(int isbNummer, String titel, int udgivelsesr){
         this.isbNummer = isbNummer;
         this.titel = titel;
-        this.udgivelsesår = udgivelsesår;
+        this.udgivelsesr = udgivelsesr;
     }
-
     public int getIsbNummer() {
         return isbNummer;
     }
@@ -18,8 +17,11 @@ public class Bog {
         return titel;
     }
 
-    public int getUdgivelsesår() {
-        return udgivelsesår;
+    public int getUdgivelsesr() {
+        return udgivelsesr;
+    }
+    public String toString() {
+        return isbNummer + " " + titel + " " + udgivelsesr;
     }
 }
 
